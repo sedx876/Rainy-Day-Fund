@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../styles/App.css';
-import Landing from './Landing'
+
 import { Container, Row } from 'react-bootstrap';
 import MenuBar from './MenuBar';
 

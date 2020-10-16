@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
 import { Button } from 'react-bootstrap';
 
@@ -9,7 +9,7 @@ const WhatIsARainyDayFund = () =>  {
 	   <h1>What is a Rainy Day Fund?</h1>
 
 	   <h3>
-		A rainy day fund, a.k.a. an <a href="http://www.investopedia.com/terms/e/emergency_fund.asp" target="_blank">
+		A rainy day fund, a.k.a. an <a href="http://www.investopedia.com/terms/e/emergency_fund.asp" target="_blank" rel="noopener noreferrer">
 	    	emergency fund</a> is a savings account established for one purpose - 
 	    	to weather a financial disaster, e.g. the loss of your job, 
 		unexpected medical expenses, a much-needed car repair, etc.
@@ -17,7 +17,7 @@ const WhatIsARainyDayFund = () =>  {
 
 	   <h3>
 		If you are 
-	    	<a href="https://www.creditdonkey.com/average-american-savings-statistics.html" target="_blank" >
+	    	<a href="https://www.creditdonkey.com/average-american-savings-statistics.html" target="_blank" rel="noopener noreferrer">
 		like many Americans</a>, you are not financially prepared for tough times. 
 	    	Without the cushion of an emergency fund, you increase the likelihood of abusing 
 	    	credit cards, missing important payments, prematurely tapping retirement accounts and 
