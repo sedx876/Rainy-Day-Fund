@@ -1,5 +1,5 @@
 export const formatDollarValues = (numString) => {
-	if(numString == ""){
+	if(numString === ""){
 	   return '0';
 	}
 
