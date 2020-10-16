@@ -7,9 +7,9 @@ import WhatIsARainyDayFund from './WhatIsARainyDayFund'
 export default(
    <Router history={HashRouter}>
    
-      <Route path="/" component={App} />
-      <Route exact path="/landing" component={Landing} />
+      {/* <Route path="/" component={App} /> */}
+      <Route exact path="/" component={Landing} />
        <Route exact path="/what-is-a-rainy-day-fund" component={WhatIsARainyDayFund} />
-       
+      
    </Router>
 )
