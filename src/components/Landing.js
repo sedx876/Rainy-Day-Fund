@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Jumbotron, Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container'
 const Landing = () =>  {

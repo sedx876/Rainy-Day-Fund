@@ -4,12 +4,11 @@ import './styles/index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import App from './components/App';
+import router from './components/router';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  router,
   document.getElementById('root')
 );
 
