@@ -1,12 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../styles/App.css';
+import Landing from './Landing'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Landing />
   );
 }
-
-export default App;
+export default App
