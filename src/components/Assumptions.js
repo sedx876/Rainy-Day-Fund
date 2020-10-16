@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router'
-import { FormGroup, Row, ControlLabel, FormControl, Button, InputGroup } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
+import { FormGroup, Row, FormLabel, FormControl, Button, InputGroup } from 'react-bootstrap';
 import {formatDollarValues} from '../helpers'
 
 const Assumptions = () => {
@@ -8,9 +8,9 @@ const Assumptions = () => {
   <div id="Assumptions">
    <FormGroup id="assumptions-form">
     <Row className="assumption">
-      <ControlLabel className="control-label">
+      <FormLabel className="control-label">
          <h4>Which of the following best applies to you?</h4>
-      </ControlLabel>
+      </FormLabel>
       <FormControl componentClass="select" id="select-income-src">
          <option value="1" selected>Single, one source of income</option>
          <option value="2">Single, two solid sources of income</option>
@@ -19,9 +19,9 @@ const Assumptions = () => {
       </FormControl>
         </Row>
         <Row className="assumption">
-          <ControlLabel className="control-label" >
+          <FormLabel className="control-label" >
             <h4>How much do you earn, <a href="http://www.investopedia.com/terms/a/aftertaxincome.asp" target="_blank">after-tax</a>, a month?</h4>
-          </ControlLabel>
+          </FormLabel>
           <div className="input-cont">
              <InputGroup.Addon className="dollar-sign">$</InputGroup.Addon>
              <FormControl
@@ -37,9 +37,9 @@ const Assumptions = () => {
            </div>
          </Row>
          <Row className="assumption">
-           <ControlLabel className="control-label" >
+           <FormLabel className="control-label" >
              <h4>How much do you have in savings that you <u>do not plan to spend</u> any time soon?</h4>
-           </ControlLabel>
+           </FormLabel>
            <div className="input-cont">
              <InputGroup.Addon className="dollar-sign">$</InputGroup.Addon>
              <FormControl
